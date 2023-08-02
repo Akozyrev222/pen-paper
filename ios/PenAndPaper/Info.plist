@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>PenAndPaper</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.196392351161-7k6fed0lrtcklo35qr4ni7e8j1p9q6aq</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) requires to access camera for uploading photos to your profile or posts</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(PRODUCT_NAME) requires to access Audio recording to record and upload videos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to upload photos from your photo gallery</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-BlackItalic.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-BoldItalic.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-ExtraBoldItalic.ttf</string>
+		<string>Poppins-ExtraLight.ttf</string>
+		<string>Poppins-ExtraLightItalic.ttf</string>
+		<string>Poppins-Italic.ttf</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-LightItalic.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-MediumItalic.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-SemiBoldItalic.ttf</string>
+		<string>Poppins-Thin.ttf</string>
+		<string>Poppins-ThinItalic.ttf</string>
+		<string>Nebula-Bold.ttf</string>
+		<string>Nebula-Hollow.ttf</string>
+		<string>Nebula-Regular.ttf</string>
+		<string>Agfiustor-Bold-Italic.otf</string>
+		<string>Agfiustor-Italic.otf</string>
+		<string>Agfiustor-Regular.otf</string>
+		<string>Benoirs.otf</string>
+		<string>Bjorn Light.otf</string>
+		<string>Bjorn Regular.otf</string>
+		<string>BjornHalftone-Regular.otf</string>
+		<string>Century Bold.otf</string>
+		<string>Century-Regular.otf</string>
+		<string>Cybersquad-Regular.ttf</string>
+		<string>Darkmode-Regular.otf</string>
+		<string>Digitally-Regular.otf</string>
+		<string>DownhillRush-Regular.ttf</string>
+		<string>Equinox Regular.otf</string>
+		<string>Equinox-Bold.otf</string>
+		<string>Futuristic-Regular.otf</string>
+		<string>Hamiltone-Regular.ttf</string>
+		<string>HyphothesisGrunge-Regular.ttf</string>
+		<string>Hypothesis Catchword.ttf</string>
+		<string>Hypothesis-Regular.ttf</string>
+		<string>Nightscary-Regular.ttf</string>
+		<string>NorthDragon-Regular.ttf</string>
+		<string>Okami-Regular.otf</string>
+		<string>Pressure-Regular.otf</string>
+		<string>Pressure-RegularItalic.otf</string>
+		<string>Questoz-Regular.ttf</string>
+		<string>Sxuidz-Bold.ttf</string>
+		<string>VampireKing-Regular.otf</string>
+		<string>Benoirs-Regular.otf</string>
+		<string>Bjorn-Light.otf</string>
+		<string>Bjorn-Regular.otf</string>
+		<string>Century-Bold.otf</string>
+		<string>Equinox-Regular.otf</string>
+		<string>Sxuidz.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
